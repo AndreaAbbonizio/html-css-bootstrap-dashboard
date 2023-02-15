@@ -1,9 +1,38 @@
 /* navbar */
 nav{
     height: 80px;
-    /* test */
-    background-color: #ff00005c;
 }
+
+nav .img-mobile{
+    max-width: 70px;
+}
+
+nav .input-container{
+    color: black;
+    flex-grow: 1;
+    background-color: #e5e5e5;
+}
+
+nav .fa-search{
+    width: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+nav .input-container .search-nav{
+    width: calc(100% - 40px);
+    background-color: #e5e5e5;
+}
+
+nav .fa-bell{
+    font-size: 1.3em;
+    color: orange;
+}
+
+nav .icon-desktop{
+    color: #594f4f;
+}
+
 
 /* navbar */
 

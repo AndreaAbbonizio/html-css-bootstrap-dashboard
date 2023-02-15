@@ -5,13 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Dashboard</title>
 </head>
 <body>
     <!-- navbar -->
     <nav>
-
+        <div class="container-fluid d-flex align-items-center gap-3 h-100">
+            <div class="img-mobile d-block d-md-none">
+                <img class="img-fluid" src="img/mobile-logo.png" alt="mobile logo">
+            </div>
+            <div class="img-tablet d-none d-md-block">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <div class="input-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="search-nav border-0" type="search" placeholder="Prova a cercare Lezioni Laravel" name="src">
+            </div>
+            <div class="icon-dekstop d-none d-md-block">
+                <i class="fa-solid fa-bars mx-2"></i>
+                <i class="fa-solid fa-circle-question mx-2"></i>
+                <i class="fa-solid fa-ellipsis-vertical mx-2"></i>
+            </div>
+            <div class="notifications">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+        </div>
     </nav>
     <!--/ navbar -->
 
