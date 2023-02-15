@@ -50,7 +50,8 @@ nav .icon-desktop{
 .container-dashboard aside{
     width: 150px;
     height: 100%;
-    background-color: #00800063;
+    background-color: #0a2238;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 /*/ aside */
@@ -59,25 +60,36 @@ nav .icon-desktop{
 .container-dashboard .container-center{
     width: calc(100% - 150px);
     height: 100%;
+    overflow: auto;
     /* test */
     background-color: #00ffff82;
 }
 
 /* heaader */
 
-.container-dashboard .container-center header{  
-    height: 100px;
-    /* test */
-    background-color: #00800075;
+.container-dashboard .container-center .back-header{
+    background-color: #1b72e8;
+} 
+
+header .header-right .fa-plus{
+    padding: .5em;
+    border: 1px solid white;
+    
 }
 
-
+.breadcrumb-item.active{
+    color: white;
+    padding: 5px 10px;
+    background-color: #165bbac7;
+    border-radius: 2em;
+    font-size: .8em;
+}
 /*/ heaader */
 
 
 /* main */
 .container-dashboard .container-center main{
-    height: calc(100% - 100px);
+    height: calc(100% - 130px);
 }
 
 
