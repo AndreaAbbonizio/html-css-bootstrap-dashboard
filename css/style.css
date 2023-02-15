@@ -1,0 +1,63 @@
+/* navbar */
+nav{
+    height: 80px;
+    /* test */
+    background-color: #ff00005c;
+}
+
+/* navbar */
+
+
+/* container dashboard */
+
+.container-dashboard{
+    height: calc(100vh - 80px);
+    /* test */
+    background-color: #0000ff52;
+}
+
+
+/* aside */
+.container-dashboard aside{
+    width: 150px;
+    height: 100%;
+    background-color: #00800063;
+}
+
+/*/ aside */
+
+/* container center */
+.container-dashboard .container-center{
+    width: calc(100% - 150px);
+    height: 100%;
+    /* test */
+    background-color: #00ffff82;
+}
+
+/* heaader */
+
+.container-dashboard .container-center header{  
+    height: 100px;
+    /* test */
+    background-color: #00800075;
+}
+
+
+/*/ heaader */
+
+
+/* main */
+.container-dashboard .container-center main{
+    height: calc(100% - 100px);
+}
+
+
+/* main */
+
+/* /container center */
+
+
+
+
+/* /container dashboard */
+
