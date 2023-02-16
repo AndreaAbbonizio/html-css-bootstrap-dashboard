@@ -77,12 +77,21 @@ header .header-right .fa-plus{
     
 }
 
-.breadcrumb-item.active{
-    color: white;
-    padding: 5px 10px;
+.my-badge{
+    /* color: white;
+    padding: 5px 10px; */
     background-color: #165bbac7;
-    border-radius: 2em;
-    font-size: .8em;
+    text-decoration: none;
+    /* border-radius: 2em;
+    font-size: .8em; */
+}
+
+.breadcrumb-item.my-before::before{
+    color: white;
+}
+
+.list-active{
+    min-width: 190px;
 }
 /*/ heaader */
 
@@ -91,6 +100,38 @@ header .header-right .fa-plus{
 .container-dashboard .container-center main{
     height: calc(100% - 130px);
 }
+
+
+/* card */
+.table thead th:not(:first-child){
+    text-align: center;
+}
+
+.table tbody td:not(:first-child){
+    width: 115px;
+}
+
+.table .image-table{
+    width: 30px;
+}
+
+.table .icon-table{
+    padding: .3em;
+    border: 1px solid #6c757d;
+    border-radius: .2em;
+    color: #6c757d;
+}
+
+
+/* card checkbox */
+#myform{
+    border: 1px solid grey;
+}
+
+/* /card checkbox */
+
+/*/ card */
+
 
 
 /* main */
