@@ -1,6 +1,6 @@
 /* navbar */
 nav{
-    height: 80px;
+    height: 60px;
 }
 
 nav .img-mobile{
@@ -40,15 +40,13 @@ nav .icon-desktop{
 /* container dashboard */
 
 .container-dashboard{
-    height: calc(100vh - 80px);
-    /* test */
-    background-color: #0000ff52;
+    height: calc(100vh - 60px);
 }
 
 
 /* aside */
 .container-dashboard aside{
-    width: 150px;
+    width: 60px;
     height: 100%;
     background-color: #0a2238;
     background-image: url(../img/sidebar-bg.png);
@@ -58,11 +56,10 @@ nav .icon-desktop{
 
 /* container center */
 .container-dashboard .container-center{
-    width: calc(100% - 150px);
+    width: calc(100% - 60px);
     height: 100%;
     overflow: auto;
-    /* test */
-    background-color: #00ffff82;
+    
 }
 
 /* heaader */
@@ -70,20 +67,22 @@ nav .icon-desktop{
 .container-dashboard .container-center .back-header{
     background-color: #1b72e8;
 } 
-
-header .header-right .fa-plus{
-    padding: .5em;
-    border: 1px solid white;
-    
+/* offcanvas container */
+header .header-right .offcanvas-container .fa-plus{
+    padding: .3em; 
 }
 
+.input-width{
+    width: 40%;
+}
+/*/ offcanvas container */
+
+
 .my-badge{
-    /* color: white;
-    padding: 5px 10px; */
+    
     background-color: #165bbac7;
     text-decoration: none;
-    /* border-radius: 2em;
-    font-size: .8em; */
+  
 }
 
 .breadcrumb-item.my-before::before{
@@ -99,6 +98,7 @@ header .header-right .fa-plus{
 /* main */
 .container-dashboard .container-center main{
     height: calc(100% - 130px);
+    background-color: #f8f9fa;
 }
 
 
@@ -143,3 +143,40 @@ header .header-right .fa-plus{
 
 /* /container dashboard */
 
+
+
+/* media queries */
+@media screen and (min-width: 577px){
+    nav{
+        height: 100px;
+    }
+    .container-dashboard{
+        height: calc(100vh - 100px);
+    }
+    .container-dashboard aside{
+        width: 100px;
+    }
+    .container-dashboard .container-center{
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .offcanvas-end{
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    nav{
+        height: 80px;
+    }
+    .container-dashboard{
+        height: calc(100vh - 80px);
+    }
+}
+
+
+
+/* media queries */
